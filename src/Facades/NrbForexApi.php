@@ -1,6 +1,6 @@
 <?php
 
-namespace SachinKiranti\NrbForexApi\Facades;
+namespace NeputerTech\NrbForexApi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

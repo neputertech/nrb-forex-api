@@ -1,6 +1,6 @@
 <?php
 
-use SachinKiranti\NrbForexApi\NrbForexISO3;
+use NeputerTech\NrbForexApi\NrbForexISO3;
 
 return [
     # base_url should end with trailing backslash `/`

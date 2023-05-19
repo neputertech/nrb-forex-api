@@ -23,7 +23,7 @@ Add manually the service provider in your `config/app.php` file :
 ```php
 'providers' => [
     // ...
-    SachinKiranti\NrbForexApi\NrbForexApiServiceProvider::class,
+    NeputerTech\NrbForexApi\NrbForexApiServiceProvider::class,
 ];
 ```
 
@@ -32,7 +32,7 @@ Add manually the facade in your `config/app.php` file :
 ```php
 'aliases' => [
     // ...
-    SachinKiranti\NrbForexApi\Facades\NrbForexApi::class,
+    NeputerTech\NrbForexApi\Facades\NrbForexApi::class,
 ];
 ```
 
@@ -47,13 +47,13 @@ php artisan vendor:publish --tag=nrb-forex-api
 ## Usage
 Using the `NrbForexApi` package, it's quite easy to get the current rate's.
 
-We have the `SachinKiranti\NrbForexApi\NrbForexISO3` for ISO3 list of constants to be used.
+We have the `NeputerTech\NrbForexApi\NrbForexISO3` for ISO3 list of constants to be used.
 
 ### Using with facade
 
 - Getting the current rate for US Dollar to Nepali Rupees :
 ```php
- NrbForexApi::to(\SachinKiranti\NrbForexApi\NrbForexISO3::US_DOLLAR)->convert(5);
+ NrbForexApi::to(\NeputerTech\NrbForexApi\NrbForexISO3::US_DOLLAR)->convert(5);
  // Outputs : (Right now, US Dollar per unit === 122.24 NRS)
  611.2
 ```
@@ -62,7 +62,7 @@ We have the `SachinKiranti\NrbForexApi\NrbForexISO3` for ISO3 list of constants 
 
 - Getting the current rate for Indian Rupees to Nepali Rupees :
 ```php
- nrb_forex_convert(\SachinKiranti\NrbForexApi\NrbForexISO3::INDIAN_RUPEE, 100)
+ nrb_forex_convert(\NeputerTech\NrbForexApi\NrbForexISO3::INDIAN_RUPEE, 100)
  // Outputs : (Right now, Indian ruppee per 100 unit === 160 NRS)
  160
 ```

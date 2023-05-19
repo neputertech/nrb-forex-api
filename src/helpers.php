@@ -1,6 +1,6 @@
 <?php
 
-use SachinKiranti\NrbForexApi\NrbForexApi;
+use NeputerTech\NrbForexApi\NrbForexApi;
 
 if (! function_exists('nrb_forex_api')) :
 

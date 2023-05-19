@@ -1,6 +1,6 @@
 <?php
 
-namespace SachinKiranti\NrbForexApi;
+namespace NeputerTech\NrbForexApi;
 
 class NrbForexISO3
 {
