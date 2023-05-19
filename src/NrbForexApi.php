@@ -7,7 +7,7 @@ use Exception;
 class NrbForexApi
 {
 
-    private $forexRates;
+    protected $forexRates;
 
     public $iso3;
 
