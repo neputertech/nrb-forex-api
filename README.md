@@ -1,6 +1,6 @@
 # Laravel NrbForexApi
 
-The `sachinkiranti/nrb-forex-api` package provides easy access to the forex rate fixed by Nepal Rastra Bank for different countries to Nepali Rupees(NPR).
+The `neputertech/nrb-forex-api` package provides easy access to the forex rate fixed by Nepal Rastra Bank for different countries to Nepali Rupees(NPR).
 
 ## Installation
 
@@ -11,7 +11,7 @@ Installation is straightforward, setup is similar to every other Laravel Package
 Begin by pulling in the package through Composer:
 
 ```
-composer require sachinkiranti/nrb-forex-api
+composer require neputertech/nrb-forex-api
 ```
 
 #### 2. Define the Service Provider and alias
