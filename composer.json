@@ -27,6 +27,11 @@
             "email": "sachinkiranti@gmail.com",
             "homepage": "https://raisachin.com.np",
             "role": "Maintainer"
+        },
+        {
+            "name": "Pratibimba Khadaka",
+            "email": "pratibimbakhadka@neputer.com",
+            "role": "Maintainer"
         }
     ],
     "require": {
